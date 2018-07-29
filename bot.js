@@ -121,24 +121,7 @@ cc.on("collect", r => {
 
 // THIS  MUST  BE  THIS  WAY
 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '473246923013357593').setName("W");
-client.channels.find('id', '473246923013357593').setName("We");
-client.channels.find('id', '473246923013357593').setName("Wel");
-client.channels.find('id', '473246923013357593').setName("Welc");
-client.channels.find('id', '473246923013357593').setName("Welco");
-client.channels.find('id', '473246923013357593').setName("Welcom");
-client.channels.find('id', '473246923013357593').setName("Welcome");
-client.channels.find('id', '473246923013357593').setName("Welcome T");
-client.channels.find('id', '473246923013357593').setName("Welcome To");
-client.channels.find('id', '473246923013357593').setName("Welcome To D");
-client.channels.find('id', '473246923013357593').setName("Welcome To D3");
-client.channels.find('id', '473246923013357593').setName("Welcome To D3S");
-client.channels.find('id', '473246923013357593').setName("Welcome To D3S CLAN");
-client.channels.find('id', '473246923013357593').setName("Welcome To D3S CLAN .");
-  }, 3000);
-});
+
 
 client.login(process.env.BOT_TOKEN);
 
