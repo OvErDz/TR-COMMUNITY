@@ -124,20 +124,20 @@ cc.on("collect", r => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '473224253777510410').setName("W");
-client.channels.find('id', '473224253777510410').setName("We");
-client.channels.find('id', '473224253777510410').setName("Wel");
-client.channels.find('id', '473224253777510410').setName("Welc");
-client.channels.find('id', '473224253777510410').setName("Welco");
-client.channels.find('id', '473224253777510410').setName("Welcom");
-client.channels.find('id', '473224253777510410').setName("Welcome");
-client.channels.find('id', '473224253777510410').setName("Welcome T");
-client.channels.find('id', '473224253777510410').setName("Welcome To");
-client.channels.find('id', '473224253777510410').setName("Welcome To D");
-client.channels.find('id', '473224253777510410').setName("Welcome To D3");
-client.channels.find('id', '473224253777510410').setName("Welcome To D3S");
-client.channels.find('id', '473224253777510410').setName("Welcome To D3S CLAN");
-client.channels.find('id', '473224253777510410').setName("Welcome To D3S CLAN .");
+client.channels.find('id', '472277696479756301').setName("W");
+client.channels.find('id', '472277696479756301').setName("We");
+client.channels.find('id', '472277696479756301').setName("Wel");
+client.channels.find('id', '472277696479756301').setName("Welc");
+client.channels.find('id', '472277696479756301').setName("Welco");
+client.channels.find('id', '472277696479756301').setName("Welcom");
+client.channels.find('id', '472277696479756301').setName("Welcome");
+client.channels.find('id', '472277696479756301').setName("Welcome T");
+client.channels.find('id', '472277696479756301').setName("Welcome To");
+client.channels.find('id', '472277696479756301').setName("Welcome To D");
+client.channels.find('id', '472277696479756301').setName("Welcome To D3");
+client.channels.find('id', '472277696479756301').setName("Welcome To D3S");
+client.channels.find('id', '472277696479756301').setName("Welcome To D3S CLAN");
+client.channels.find('id', '472277696479756301').setName("Welcome To D3S CLAN .");
   }, 3000);
 });
 client.login(process.env.BOT_TOKEN);
