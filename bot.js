@@ -150,26 +150,6 @@ client.channels.find('id', '473246923013357593').setName("Welcome To Ahwak Commu
 });
 
 
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '473906111565660171').setName("W");
-client.channels.find('id', '473906111565660171').setName("We");
-client.channels.find('id', '473906111565660171').setName("Wel");
-client.channels.find('id', '473906111565660171').setName("Welc");
-client.channels.find('id', '473906111565660171').setName("Welco");
-client.channels.find('id', '473906111565660171').setName("Welcom");
-client.channels.find('id', '473906111565660171').setName("Welcome");
-client.channels.find('id', '473906111565660171').setName("Welcome T");
-client.channels.find('id', '473906111565660171').setName("Welcome To");
-client.channels.find('id', '473906111565660171').setName("Welcome To D");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3S");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3S C");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3S CL");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3S CLA");
-client.channels.find('id', '473906111565660171').setName("Welcome To D3S CLAN");
-  }, 3000);
-});
 
 
 
