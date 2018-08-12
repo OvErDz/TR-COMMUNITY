@@ -172,7 +172,25 @@ client.channels.find('id', '473906111565660171').setName("Welcome To D3S CLAN");
 });
 
 
-
+client.on('ready', function(){
+    var ms = 60000 ;
+    var setGame = ['Type YNhelp'];
+    var i = -1;
+    var j = 0;
+    setInterval(function (){
+        if( i == -1 ){
+            j = 1;
+        }
+        if( i == (setGame.length)-1 ){
+            j = -1;
+        }
+        i = i+j;
+        client.user.setGame(setGame[i],`http://www.twitch.tv/barontube`);
+    }, ms);
+});
+client.on('ready', function() {
+    console.log(`i am ready ${client.user.username}`);
+});
 
      
 
